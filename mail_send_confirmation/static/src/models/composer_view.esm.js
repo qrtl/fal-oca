@@ -22,7 +22,7 @@ registerPatch({
                     $content: $("<div/>", {
                         text: _.str.sprintf(
                             _t(
-                                "This message will be sent to external users as well. Are you sure you want to send this email?"
+                                "This message will be sent to external partners as well. Are you sure you would like to send this message?"
                             )
                         ),
                     }),
