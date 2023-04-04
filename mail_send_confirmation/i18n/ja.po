@@ -20,7 +20,7 @@ msgstr ""
 #: code:addons/mail_send_confirmation/static/src/models/composer_view.esm.js:0
 #, python-format
 msgid "Are you sure you want to send this mail to the followers."
-msgstr "本当にこのメールをフォロワーに送信しますか？"
+msgstr "外部ユーザーにもメッセージが送信されます。本当にこのメールを送信しますか？"
 
 #. module: mail_send_confirmation
 #. odoo-javascript
