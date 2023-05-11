@@ -73,7 +73,7 @@ msgstr "作成日"
 #: model:ir.model.fields,help:purchase_deposit.field_res_company__purchase_deposit_product_id
 #: model:ir.model.fields,help:purchase_deposit.field_res_config_settings__purchase_deposit_product_id
 msgid "Default product used for payment advances."
-msgstr "前払に使用する標準"
+msgstr "前払に使用するデフォルトプロダクト"
 
 #. module: purchase_deposit
 #. odoo-python
@@ -100,7 +100,7 @@ msgstr "前払"
 #. module: purchase_deposit
 #: model:ir.model.fields.selection,name:purchase_deposit.selection__purchase_advance_payment_inv__advance_payment_method__fixed
 msgid "Deposit payment (fixed amount)"
-msgstr "前払（定額）"
+msgstr "前払(定額)"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,help:purchase_deposit.field_purchase_order_line__is_deposit
@@ -119,7 +119,7 @@ msgstr "表示名"
 #. module: purchase_deposit
 #: model:ir.model.fields.selection,name:purchase_deposit.selection__purchase_advance_payment_inv__advance_payment_method__percentage
 msgid "Down payment (percentage)"
-msgstr "前払（パーセンテージ）"
+msgstr "前払(%)"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__deposit_account_id
@@ -134,12 +134,12 @@ msgstr "ID"
 #. module: purchase_deposit
 #: model:ir.actions.act_window,name:purchase_deposit.action_view_purchase_advance_payment_inv
 msgid "Invoice Order"
-msgstr "オーダーを請求書"
+msgstr "請求書を作成"
 
 #. module: purchase_deposit
 #: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_advance_payment_inv
 msgid "Invoice Purchases Order"
-msgstr "購買オーダーを請求書"
+msgstr "請求書を作成"
 
 #. module: purchase_deposit
 #: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_advance_payment_inv
@@ -220,7 +220,7 @@ msgstr "事前に請求する金額（税抜き）です。"
 #: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid "The percentage of the deposit must be not over 100"
-msgstr "前払のパーセンテージが100を超えないようにしてください"
+msgstr "前払%は100を超えないようにしてください。"
 
 #. module: purchase_deposit
 #. odoo-python
@@ -230,8 +230,8 @@ msgid ""
 "The product used to invoice a down payment should be of type \"Service\". "
 "Please use another product or update this product."
 msgstr ""
-"前払請求書で使用するプロダクトはプロダクトタイプが\"サービス\"と設定する必要があります。"
-"前払請求書を作成するには、前払プロダクトのタイプを更新又は他のプロダクトをご利用ください。"
+"前払請求書で使用するプロダクトは「サービス」タイプである必要があります。"
+"別のプロダクトを使用するか、このプロダクトのタイプを更新してください。"
 
 #. module: purchase_deposit
 #. odoo-python
@@ -242,7 +242,7 @@ msgid ""
 " to \"Ordered quantities\". Please update your deposit product to be able to"
 " create a deposit invoice."
 msgstr ""
-"前払請求書で使用するプロダクトは請求方針の設定が\"オーダー数量\"と設定する必要があります。"
+"前払請求書で使用するプロダクトは請求方針が「オーダー数量」である必要があります。"
 "前払請求書を作成するには、前払プロダクトの請求方針を更新してください。"
 
 #. module: purchase_deposit
@@ -259,8 +259,8 @@ msgstr "前払額はプラスでなければなりません。"
 msgid ""
 "There is no purchase account defined for this product: %s.\n"
 "You may have to install a chart of account from Accounting app, settings menu."
-msgstr "こちらのプロダクトの購買勘定が設定されていない：%s.\n"
-"会計アプリの設定メニューより、勘定科目をインストールする必要がある場合があります。"
+msgstr "プロダクトに費用勘定が設定されていません：%s\n"
+"会計アプリの設定メニューより、勘定科目表をインストールする必要があるかもしれません。"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__deposit_taxes_id
@@ -270,4 +270,4 @@ msgstr "仕入先税"
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__advance_payment_method
 msgid "What do you want to invoice?"
-msgstr "何を請求したいですか？"
+msgstr "前払請求方針"
