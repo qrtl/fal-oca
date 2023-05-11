@@ -147,7 +147,7 @@ msgid ""
 "Invoices will be created in draft so that you can review them before "
 "validation."
 msgstr ""
-"請求書はドラフトに作成されますので、記帳する前には内容を確認することができます。"
+"請求書はドラフトで作成されますので、記帳前に内容を確認することができます。"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_order_line__is_deposit
@@ -182,7 +182,7 @@ msgstr "前払に使用するプロダクト"
 #. module: purchase_deposit
 #: model:ir.model,name:purchase_deposit.model_purchase_advance_payment_inv
 msgid "Purchase Advance Payment Invoice"
-msgstr "購入前払い請求書"
+msgstr "購買前払請求書"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_res_company__purchase_deposit_product_id
@@ -208,12 +208,12 @@ msgstr "前払登録"
 #. module: purchase_deposit
 #: model:ir.model.fields,help:purchase_deposit.field_purchase_advance_payment_inv__deposit_taxes_id
 msgid "Taxes used for deposits"
-msgstr "前払に使用する税金"
+msgstr "前払に使用する税"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,help:purchase_deposit.field_purchase_advance_payment_inv__amount
 msgid "The amount to be invoiced in advance, taxes excluded."
-msgstr "事前に請求する金額（税抜き）です。"
+msgstr "前払請求金額（税抜）"
 
 #. module: purchase_deposit
 #. odoo-python
