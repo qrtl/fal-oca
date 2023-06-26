@@ -55,10 +55,10 @@ class ReportCSVAbstract(models.AbstractModel):
             return file_data.read().encode(encoding, errors=error_handling), "csv"
         try:
             return file_data.read().encode(encoding), "csv"
-        except Exception:
+        except Exception as err:
             raise UserError(
                 _("Failed to encode the data with the encoding set in the report.")
-            )
+            ) from err
 
     def csv_report_options(self):
         """
