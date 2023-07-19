@@ -90,14 +90,14 @@ msgstr "承認依頼は承認されました。"
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by %(user)s. (%(comment)s)"
-msgstr "承認依頼は拒否されました。"
+msgstr "承認依頼は%(user)sより拒否されました。 (%(comment)s)"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by %s."
-msgstr "承認依頼は拒否されました。"
+msgstr "承認依頼は %sより拒否されました。"
 
 #. module: base_tier_validation
 #. odoo-python
