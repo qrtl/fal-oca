@@ -4,24 +4,23 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-07-03 11:10+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
-"Language-Team: none\n"
-"Language: it\n"
+"POT-Creation-Date: 2023-07-19 05:59+0000\n"
+"PO-Revision-Date: 2023-07-19 05:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"Plural-Forms: \n"
 
 #. module: base_tier_validation
 #. odoo-javascript
 #: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "0 Pending"
-msgstr "0 In attesa"
+msgstr ""
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
@@ -31,8 +30,8 @@ msgid ""
 "                validated."
 msgstr ""
 "<i class=\"fa fa-info-circle\"/>\n"
-"                Questo Record necessita di\n"
-"                approvazione."
+"                こちらのレコードは\n"
+"                承認が必要です。"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
@@ -43,8 +42,8 @@ msgid ""
 "                ."
 msgstr ""
 "<i class=\"fa fa-thumbs-down\"/>\n"
-"                L'operazione è stata\n"
-"                <b>rifiutata</b>\n"
+"                こちらのレコードは\n"
+"                <b>拒否されました。</b>\n"
 "                ."
 
 #. module: base_tier_validation
@@ -56,106 +55,106 @@ msgid ""
 "                !"
 msgstr ""
 "<i class=\"fa fa-thumbs-up\"/>\n"
-"                L'operazione è stata\n"
-"                <b>approvata</b>\n"
+"                こちらのレコードは\n"
+"                <b>承認されました。</b>\n"
 "                !"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "<span class=\"oe_edit_only\">Name</span>"
-msgstr "<span class=\"oe_edit_only\">Nome</span>"
+msgstr "<span class=\"oe_edit_only\">名称</span>"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review has been requested by %s."
-msgstr "Un'approvazione è stata richiesta da %s."
+msgstr "%sさんより承認が依頼されました。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was accepted"
-msgstr "Un'approvazione è stata accettata"
+msgstr "承認依頼は承認されました。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was accepted. (%s)"
-msgstr "Un'approvazione è stata accettata. (%s)"
+msgstr "承認依頼は承認されました。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by %(user)s. (%(comment)s)"
-msgstr ""
+msgstr "承認依頼は拒否されました。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by %s."
-msgstr "Un'approvazione è stata rifiutata da %s."
+msgstr "承認依頼は拒否されました。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A validation process is still open for at least one record."
-msgstr "Un processo di approvazione è ancora aperto per almeno un record."
+msgstr "一つのオーダーが承認手続き中です。"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__active
 msgid "Active"
-msgstr "Attivo"
+msgstr "有効"
 
 #. module: base_tier_validation
 #. odoo-javascript
 #: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "Activity"
-msgstr ""
+msgstr "アクティビティ"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
 msgid "All"
-msgstr "Tutto"
+msgstr "全レコード"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__group
 msgid "Any user in a specific group"
-msgstr "Qualunque utente in un gruppo specifico"
+msgstr "特定グループのユーザー"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "Apply On"
-msgstr "Applica a"
+msgstr "設定"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,help:base_tier_validation.field_tier_definition__approve_sequence
 #: model:ir.model.fields,help:base_tier_validation.field_tier_review__approve_sequence
 msgid "Approval order by the specified sequence number"
-msgstr "Ordine di approvazione specificato da numero sequenza"
+msgstr "特定のシーケンスにより承認オーダ"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__approve_sequence
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__approve_sequence
 msgid "Approve by sequence"
-msgstr "Approva in sequenza"
+msgstr "シーケンスにより承認"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__approved
 msgid "Approved"
-msgstr "Approvato"
+msgstr "承認済"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__can_review
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__can_review
 msgid "Can Review"
-msgstr "Può approvare"
+msgstr "承認可"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,help:base_tier_validation.field_tier_review__can_review
@@ -163,15 +162,17 @@ msgid ""
 "Can review will be marked if the review is pending and the\n"
 "        approve sequence has been achieved"
 msgstr ""
+"承認が保留中であり、承認シーケンスが達成されている場合、\n"
+"        承認可がマークされます。"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
 msgid "Cancel"
-msgstr "Annulla"
+msgstr "取消"
 
 #. module: base_tier_validation
-#. odoo-python
 #. odoo-javascript
+#. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__comment
@@ -180,53 +181,53 @@ msgstr "Annulla"
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
 #, python-format
 msgid "Comment"
-msgstr "Commento"
+msgstr "コメント"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_comment_wizard
 msgid "Comment Wizard"
-msgstr "Wizard Commento"
+msgstr "コメントのウィザード"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__comment
 msgid "Comments"
-msgstr "Commenti"
+msgstr "コメント"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__company_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__company_id
 msgid "Company"
-msgstr "Azienda"
+msgstr "会社"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "コンフィグ設定"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_uid
 msgid "Created by"
-msgstr "Creato da"
+msgstr "作成者"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_date
 msgid "Created on"
-msgstr "Creato il"
+msgstr "作成日"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__definition_type
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__definition_id
 msgid "Definition"
-msgstr "Definizione"
+msgstr "定義"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__definition_domain
 msgid "Definition Domain"
-msgstr "Dominio Definizione"
+msgstr "定義ドメイン"
 
 #. module: base_tier_validation
 #. odoo-javascript
@@ -235,53 +236,53 @@ msgstr "Dominio Definizione"
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__name
 #, python-format
 msgid "Description"
-msgstr "Descrizione"
+msgstr "説明"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__display_name
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__display_name
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__display_name
 msgid "Display Name"
-msgstr "Nome visualizzato"
+msgstr "表示名"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__definition_type__domain
 msgid "Domain"
-msgstr "Dominio"
+msgstr "ドメイン"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__done_by
 msgid "Done By"
-msgstr "Eseguito Da"
+msgstr "承認者"
 
 #. module: base_tier_validation
 #. odoo-javascript
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Done by"
-msgstr "Eseguito da"
+msgstr "承認者"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__field
 msgid "Field in related record"
-msgstr "Campo in record collegato"
+msgstr "関連レコードの項目"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_review.py:0
 #, python-format
 msgid "Group %s"
-msgstr "Gruppo %s"
+msgstr "グループ %s"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
 msgid "Group By"
-msgstr "Raggruppa per"
+msgstr "グループ化"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__has_comment
 msgid "Has Comment"
-msgstr "Ha commenti"
+msgstr "コメント有"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__id
@@ -296,90 +297,90 @@ msgid ""
 "If set, all possible reviewers will be notified by email when this "
 "definition is triggered."
 msgstr ""
-"Se impostato, tutti i possibili approvatori saranno notificati via email "
-"quando la definizione è attivata."
+"チェックが入って、こちらの定義がトリガーされた場合、"
+"対象の承認者宛に通知メールが送信されます。 "
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard____last_update
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition____last_update
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review____last_update
 msgid "Last Modified on"
-msgstr "Ultima Modifica il"
+msgstr "最終更新日"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_uid
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_uid
 msgid "Last Updated by"
-msgstr "Ultimo aggiornamento di"
+msgstr "最終更新者"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_date
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_date
 msgid "Last Updated on"
-msgstr "Ultimo aggiornamento il"
+msgstr "最終更新日"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
 msgid "Model"
-msgstr "Modello"
+msgstr "モデル"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "More Options"
-msgstr "Più Opzioni"
+msgstr "その他の設定"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__need_validation
 msgid "Need Validation"
-msgstr "Richiede conferma"
+msgstr "承認対象"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_definition.py:0
 #, python-format
 msgid "New Tier Validation"
-msgstr "Nuovo Livello Approvazione"
+msgstr "新規階層の定義"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__next_review
 msgid "Next Review"
-msgstr ""
+msgstr "次の承認"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Next: %s"
-msgstr ""
+msgstr "次：%s"
 
 #. module: base_tier_validation
 #. odoo-javascript
 #: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "No reviews to do."
-msgstr "Nessuna approvazione da fare."
+msgstr "未承認レコード無し"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__notify_on_create
 msgid "Notify Reviewers on Creation"
-msgstr "Notifica Approvatori su Creazione"
+msgstr "承認者宛に通知を送信"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Operation has been <b>rejected</b>."
-msgstr ""
+msgstr "オペレーションが<b>拒否されました</b>。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Operation has been <b>validated</b>!"
-msgstr ""
+msgstr "オペレーションが<b>承認されました</b>!"
 
 #. module: base_tier_validation
 #. odoo-javascript
@@ -387,124 +388,122 @@ msgstr ""
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__pending
 #, python-format
 msgid "Pending"
-msgstr "In attesa"
+msgstr "保留中"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model_id
 msgid "Referenced Model"
-msgstr ""
+msgstr "参照モデル"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
 msgid "Reject"
-msgstr "Rifiuta"
+msgstr "拒否"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__rejected
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__rejected
 msgid "Rejected"
-msgstr "Rifiutato"
+msgstr "拒否済み"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__rejected_message
 msgid "Rejected Message"
-msgstr ""
+msgstr "拒否メッセージ"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__res_id
 msgid "Related Document ID"
-msgstr ""
+msgstr "関連ドキュメントID"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__model
 msgid "Related Document Model"
-msgstr ""
+msgstr "関連ドキュメントのモデル"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_buttons
 msgid "Request Validation"
-msgstr "Richiedi validazione"
+msgstr "承認依頼"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__requested_by
 msgid "Requested By"
-msgstr "Richiesta Da"
+msgstr "依頼者"
 
 #. module: base_tier_validation
 #. odoo-javascript
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Requested by"
-msgstr "Richiesta da"
+msgstr "依頼者"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__res_id
-#, fuzzy
 msgid "Res"
-msgstr "Res"
+msgstr ""
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__res_model
-#, fuzzy
 msgid "Res Model"
-msgstr "Res Model"
+msgstr ""
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_buttons
 msgid "Restart Validation"
-msgstr "Riavvia validazione"
+msgstr "承認フロー再開"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__review_ids
 msgid "Review"
-msgstr "Approvazione"
+msgstr "承認"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_id
 msgid "Reviewer"
-msgstr "Revisore"
+msgstr "承認者"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_field_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_field_id
 msgid "Reviewer field"
-msgstr "Campo approvatore"
+msgstr "承認者項目"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_group_id
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_group_id
 msgid "Reviewer group"
-msgstr "Gruppo approvatore"
+msgstr "承認者グループ"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_ids
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__reviewer_ids
 msgid "Reviewers"
-msgstr "Revisori"
+msgstr "承認者"
 
 #. module: base_tier_validation
 #. odoo-javascript
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #: model:ir.model.fields,field_description:base_tier_validation.field_res_users__review_ids
 #, python-format
 msgid "Reviews"
-msgstr "Revisioni"
+msgstr "承認対象"
 
 #. module: base_tier_validation
 #. odoo-javascript
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__sequence
-#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__sequence
 #, python-format
 msgid "Sequence"
-msgstr "Sequenza"
+msgstr "シーケンス"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__individual
 msgid "Specific user"
-msgstr "Utente specifico"
+msgstr "特定ユーザー"
 
 #. module: base_tier_validation
 #. odoo-javascript
@@ -512,35 +511,35 @@ msgstr "Utente specifico"
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__status
 #, python-format
 msgid "Status"
-msgstr "Stato"
+msgstr "ステータス"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "The operation is under validation."
-msgstr "L'operazione è sotto approvazione."
+msgstr "こちらのオペレーションは承認手続き中です。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "The review has been reset by %s."
-msgstr "L'approvazione è stata riavviata da %s."
+msgstr "承認は %sによりリセットされました。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_review.py:0
 #, python-format
 msgid "There are no res.users in the selected field"
-msgstr ""
+msgstr "選択された項目にres.usersが存在しません。"
 
 #. module: base_tier_validation
 #. odoo-python
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "This %s needs to be validated"
-msgstr ""
+msgstr "こちら %sは承認が必要です。"
 
 #. module: base_tier_validation
 #. odoo-python
@@ -550,8 +549,13 @@ msgid ""
 "This action needs to be validated for at least one record. \n"
 "Please request a validation."
 msgstr ""
-"Questa azione richiede di essere approvata per almeno un record.\n"
-"Prego richiedere un'approvazione."
+"こちらのアクションは少なくとも一つのレコードを承認する必要があります。"
+"承認依頼を送信してください。"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__sequence
+msgid "Tier"
+msgstr "階層"
 
 #. module: base_tier_validation
 #: model:ir.actions.act_window,name:base_tier_validation.tier_definition_action
@@ -559,95 +563,95 @@ msgstr ""
 #: model:ir.ui.menu,name:base_tier_validation.menu_tier_definition
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "Tier Definition"
-msgstr "Definizione livello"
+msgstr "階層の定義"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_tier_review
 msgid "Tier Review"
-msgstr "Livello Approvazione"
+msgstr "階層レビュー"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_tier_validation
 msgid "Tier Validation (abstract)"
-msgstr ""
+msgstr "階層の定義(概要)"
 
 #. module: base_tier_validation
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_accepted
 msgid "Tier Validation Accepted Notification"
-msgstr "Notifica Accettazione Livello Approvazione"
+msgstr "階層の定義承認通知"
 
 #. module: base_tier_validation
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_rejected
 msgid "Tier Validation Rejected Notification"
-msgstr "Notifica Rifiuto Livello Approvazione"
+msgstr "階層の定義拒否通知"
 
 #. module: base_tier_validation
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_requested
 msgid "Tier Validation Requested"
-msgstr "Approvazione Richiesta"
+msgstr "階層の定義依頼済"
 
 #. module: base_tier_validation
 #: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_restarted
 msgid "Tier Validation Restarted"
-msgstr "Approvazione Riavviata"
+msgstr "階層の定義再開済"
 
 #. module: base_tier_validation
 #: model:ir.ui.menu,name:base_tier_validation.menu_tier_confirmation
 msgid "Tier Validations"
-msgstr "Livelli di Approvazione"
+msgstr "階層の定義"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__to_validate_message
 msgid "To Validate Message"
-msgstr ""
+msgstr "承認メッセージ"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__todo_by
 msgid "Todo By"
-msgstr "Incaricati"
+msgstr "担当者"
 
 #. module: base_tier_validation
 #. odoo-javascript
 #: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Todo by"
-msgstr "Incaricati"
+msgstr "担当者"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_res_users
 msgid "User"
-msgstr ""
+msgstr "ユーザ"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__valid_reviewer_field_ids
 msgid "Valid Reviewer Field"
-msgstr ""
+msgstr "有効な承認者項目"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_validation_label
 msgid "Validate"
-msgstr "Approva"
+msgstr "承認"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__validate_reject
 msgid "Validate Reject"
-msgstr "Rifiuta Approvazione"
+msgstr "承認　拒否"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validated
 msgid "Validated"
-msgstr "Approvato"
+msgstr "承認済"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validated_message
 msgid "Validated Message"
-msgstr ""
+msgstr "承認メッセージ"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__review_type
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__review_type
 msgid "Validated by"
-msgstr "Approvato da"
+msgstr "承認者"
 
 #. module: base_tier_validation
 #. odoo-javascript
@@ -655,29 +659,19 @@ msgstr "Approvato da"
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewed_date
 #, python-format
 msgid "Validation Date"
-msgstr "Data Approvazione"
+msgstr "承認日"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewed_formated_date
 msgid "Validation Formated Date"
-msgstr ""
+msgstr "承認更新日"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__review_ids
 msgid "Validations"
-msgstr "Validazioni"
+msgstr "承認"
 
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
 msgid "e.g. Tier Validation for..."
-msgstr ""
-
-#, python-format
-#~ msgid "Activities"
-#~ msgstr "Attività"
-
-#~ msgid "Users"
-#~ msgstr "Utenti"
-
-#~ msgid "A review was rejected by {}. ({})"
-#~ msgstr "Un'approvazione è stata rifiutata da {}. ({})"
+msgstr "例：...為の階層の定義"
