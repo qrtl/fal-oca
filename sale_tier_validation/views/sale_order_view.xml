@@ -29,12 +29,13 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='payment_term_id']" position="after">
                 <field name="need_validation" invisible="1"/>
-                <field name="validated" invisible="1"/>
                 <field name="next_review" invisible="1"/>
             </xpath>
             <xpath expr="//button[@name='action_quotation_send']" position="attributes">
-                <attribute name="attrs">{'invisible': ['|','|',('need_validation','=',True),'&amp;',('next_review','=',False),('validated','=',False)]}</attribute>
+                <attribute name="states" remove="draft" />
+                <attribute name="attrs">{ 'invisible': ['|','|',('state', '!=','draft'),('need_validation', '=', True),('next_review','=like','Next')]}</attribute>
             </xpath>
         </field>
     </record>
 </odoo>
+    
