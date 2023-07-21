@@ -2,6 +2,20 @@
 <!-- Copyright 2019 Open Source Integrators
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo>
+    <record id="view_order_form_hide_send_email" model="ir.ui.view">
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='payment_term_id']" position="after">
+                <field name="need_validation" invisible="1" />
+                <field name="next_review" invisible="1" />
+            </xpath>
+            <xpath expr="//button[@name='action_quotation_send']" position="attributes">
+                <attribute name="states" remove="draft" />
+                <attribute name="attrs">{'invisible':['|','|',('state','!=','draft'),('need_validation','=',True),('next_review','!=','')]}</attribute>
+            </xpath>
+        </field>
+    </record>
     <record id="view_sale_order_filter" model="ir.ui.view">
         <field name="name">sale.order.select - sale_tier_validation</field>
         <field name="model">sale.order</field>
