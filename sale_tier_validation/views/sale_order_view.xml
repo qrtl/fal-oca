@@ -33,7 +33,7 @@
             </xpath>
             <xpath expr="//button[@name='action_quotation_send']" position="attributes">
                 <attribute name="states" remove="draft" />
-                <attribute name="attrs">{ 'invisible': ['|','|',('state', '!=','draft'),('need_validation', '=', True),('next_review','=like','Next')]}</attribute>
+                <attribute name="attrs">{ 'invisible': ['|','|',('state', '!=','draft'),('need_validation', '=', True),('next_review','!=',False)]}</attribute>
             </xpath>
         </field>
     </record>
