@@ -83,7 +83,7 @@ msgstr "承認依頼は承認されました。"
 #: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was accepted. (%s)"
-msgstr "承認依頼は承認されました。"
+msgstr "承認依頼は承認されました。  (%s)"
 
 #. module: base_tier_validation
 #. odoo-python
