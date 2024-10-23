@@ -22,16 +22,6 @@ def pre_init_hook(cr):
         AND am.state = 'posted'
         """
     )
-    _logger.info("Updating accounting_date with stock_move's accounting date.")
-    cr.execute(
-        """
-        UPDATE stock_valuation_layer svl
-        SET accounting_date = sm.accounting_date
-        FROM stock_move sm
-        WHERE svl.stock_move_id = sm.id
-        AND svl.accounting_date IS NULL
-        """
-    )
     _logger.info("Updating 'account_date' with stock_valuation_layer.create_date.")
     cr.execute(
         """
