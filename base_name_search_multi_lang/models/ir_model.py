@@ -5,9 +5,13 @@ from odoo import api, fields, models, tools
 
 @tools.ormcache("model")
 def _get_model_name_search_multi_lang(self, model):
-    multi_lang = self.env["ir.model"].sudo().search_read(
-        [("model", "=", self._name)], ["name_search_multi_lang"]
-    )[0]["name_search_multi_lang"]
+    multi_lang = (
+        self.env["ir.model"]
+        .sudo()
+        .search_read([("model", "=", self._name)], ["name_search_multi_lang"])[0][
+            "name_search_multi_lang"
+        ]
+    )
     return multi_lang
 
 
