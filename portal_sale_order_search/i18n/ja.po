@@ -12,38 +12,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+"Language: ja\n"
 
 #. module: portal_sale_order_search
 #. odoo-python
 #: code:addons/portal_sale_order_search/controllers/main.py:0
 #, python-format
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #. module: portal_sale_order_search
 #. odoo-python
 #: code:addons/portal_sale_order_search/controllers/main.py:0
 #, python-format
 msgid "Customer"
-msgstr ""
+msgstr "顧客"
 
 #. module: portal_sale_order_search
 #. odoo-python
 #: code:addons/portal_sale_order_search/controllers/main.py:0
 #, python-format
 msgid "Customer Company"
-msgstr ""
+msgstr "顧客会社"
 
 #. module: portal_sale_order_search
 #. odoo-python
 #: code:addons/portal_sale_order_search/controllers/main.py:0
 #, python-format
 msgid "Order Customer Ref"
-msgstr ""
+msgstr "顧客参照"
 
 #. module: portal_sale_order_search
 #. odoo-python
 #: code:addons/portal_sale_order_search/controllers/main.py:0
 #, python-format
 msgid "Order Ref"
-msgstr ""
+msgstr "オーダ参照"
